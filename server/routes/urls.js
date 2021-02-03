@@ -6,7 +6,7 @@ module.exports = {
   POST: async function (req, res) {
     const longUrl = req.body.url_input;
     const urlId = nanoid(7);
-    const baseUrl = "http://localhost:3000/api/shorturl/";
+    const baseUrl = "http://localhost:3000/u/";
 
     if (!validUrl.isWebUri(longUrl)) {
       res.status(401).json({

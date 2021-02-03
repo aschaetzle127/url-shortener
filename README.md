@@ -8,6 +8,14 @@ To run locally:
 `PORT=3000
 MONGO_URI='mongodb+srv://dolly-0202:FjCVMbOAh62h4OGB@cluster0.lak3c.mongodb.net/shortener'`
 
+* In your terminal, use the following commands:
+	* npm i
+	* npm run dev
+	
+* You should see the following success messages:
+	* `Listening on port 3000`
+	* `MongoDB connection successful!`
+
 * In PostMan
 
 	* POST: http://localhost:3000/api/shorturl/create

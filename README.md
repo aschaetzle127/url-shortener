@@ -36,3 +36,10 @@ MONGO_URI='mongodb+srv://dolly-0202:FjCVMbOAh62h4OGB@cluster0.lak3c.mongodb.net/
 
 
 * Once you have received your response JSON.  Click on the short_url linke to see your url shortener in action!
+
+
+
+ESSAY PORTION
+
+Given the work I completed today.  There are a few different ways I would improve upon the url-shortener as a microservice.  First and foremost, I would like to turn this microservice into an npm package.  I believe that converting this would offer better usability, as developers would be able to easily integrate this into their existing UIs, as well as ensure that users could add to the database.  This larger database would give us some insight on what types of urls/users/domains are being converted to short urls which could give us great user data for future developments/improvements. Second, I would ensure that the service was scalable.  At the current time, the database cluster hosted on AWS has limited storage and the storage beyond the free services can become very costly for information that needs to be retreived instantly.  Therfore, I would have to do a full cost analysis to find the best options for this as well as a technical analysis to ensure that mongoDB is the best choice.  
+

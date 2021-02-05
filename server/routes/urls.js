@@ -6,7 +6,7 @@ module.exports = {
   POST: async function (req, res) {
     const longUrl = req.body.url_input;
     const urlId = nanoid(7);
-    const baseUrl = "http://localhost:3000/u/";
+    const baseUrl = "https://url-shortener-dolly.herokuapp.com/u/";
 
     if (!validUrl.isWebUri(longUrl)) {
       res.status(401).json({

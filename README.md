@@ -3,10 +3,12 @@ Microservice that takes in a long URL and generates a shortened version.
 
 #### Swagger UI
 * Navigate to the [URL Shortener Swagger UI](https://app.swaggerhub.com/apis/aschaetzle127/url-shortener/1.0.0#/servers)
-* Select the following server in the dropdown on the right hand side
+* Ensure the following server is selected in the `servers` dropdown on the right hand side
 	* https://url-shortener-dolly.herokuapp.com
+* Under `POST`, select the `Try it out` button
 * Replace the example `url_input` with your long url
-* See your short_url in the response object!
+* Select `Execute`
+* See your short_url in the response object below!
 
 #### To run locally: 
 ##### Prerequisites:

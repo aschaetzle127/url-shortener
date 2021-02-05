@@ -5,6 +5,8 @@ Prerequisites:
 
 In order to run this project locally, you should have the following installed:
 * [NPM](https://nodejs.org/en/)
+* [Node.js](https://www.npmjs.com//)
+* [MongoDB](https://www.mongodb.com/)
 
 To run locally: 
 * clone repo using `git clone: https://github.com/aschaetzle127/url-shortener.git`

@@ -1,6 +1,11 @@
 # url-shortener
 Microservice that takes in a long URL and generates a shortened version.
 
+Prerequisites:
+
+In order to run this project locally, you should have the following installed:
+* [NPM](https://nodejs.org/en/)
+
 To run locally: 
 * clone repo using `git clone: https://github.com/aschaetzle127/url-shortener.git`
 

@@ -1,14 +1,20 @@
 # url-shortener
 Microservice that takes in a long URL and generates a shortened version.
 
-#### Prerequisites:
+#### Swagger UI
+* Navigate to the [URL Shortener Swagger UI](https://app.swaggerhub.com/apis/aschaetzle127/url-shortener/1.0.0#/servers)
+* Select the following server in the dropdown on the right hand side
+	* https://url-shortener-dolly.herokuapp.com
+* Replace the example `url_input` with your long url
+* See your short_url in the response object!
+
+#### To run locally: 
+##### Prerequisites:
 
 In order to run this project locally, you should have the following installed:
 * [NPM](https://nodejs.org/en/)
 * [Node.js](https://www.npmjs.com//)
 * [MongoDB](https://www.mongodb.com/)
-
-#### To run locally: 
 * clone repo using `git clone: https://github.com/aschaetzle127/url-shortener.git`
 
 * configure your .env file like so:
